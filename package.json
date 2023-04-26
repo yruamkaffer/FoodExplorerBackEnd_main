@@ -1,0 +1,37 @@
+{
+  "name": "foodexplorer_backend",
+  "version": "1.0.0",
+  "description": "Neste desafio, vamos desenvolver o food explorer, um menu interativo para um restaurante fictício.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yruamkaffer/FoodExplorer_BackEnd.git"
+  },
+  "author": "Yruam Kaffer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yruamkaffer/FoodExplorer_BackEnd/issues"
+  },
+  "homepage": "https://github.com/yruamkaffer/FoodExplorer_BackEnd#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "pm2": "^5.2.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
