@@ -10,7 +10,7 @@ Desenvolvimento de uma API que conterá dados de usuários, pedidos e pratos do 
   AUTH_SECRET=
   PORT=
 
-# Faça a instalação das depêndencias
+# Faça a instalação das dependências
   npm i
 
 # Rode as migration
