@@ -1,6 +1,6 @@
-# API - FoodExplorer
+# FOOD EXPLORER - Desafio final (Back-End)
 
-Desenvolvimento de uma API que conterá dados de usuários, pedidos e pratos do cardápio.
+Desenvolvimento de uma API que conterá dados de usuários, pedidos e pratos do cardápio..<br>
 
 ### Instalação
 ```bash
